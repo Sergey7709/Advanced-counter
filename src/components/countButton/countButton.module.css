@@ -1,7 +1,5 @@
 .button {
-  padding: 5px 10px;
   border-radius: 10px;
-  border: 0;
   background-color: rgb(11, 110, 149);
   letter-spacing: 1.5px;
   font-size: 15px;
@@ -55,11 +53,11 @@
   .button {
     width: 85px;
     height: 35px;
-    font-size: 10px;
+    font-size: 9px;
   }
   .buttonDisabled {
     width: 85px;
     height: 30px;
-    font-size: 10px;
+    font-size: 9px;
   }
 }
