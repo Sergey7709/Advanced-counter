@@ -1,0 +1,53 @@
+.count {
+  padding: 2px;
+  background: #1b496c;
+  border: 4px solid #5df7e7;
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px #000000 inset;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 280px;
+  height: 190px;
+}
+
+.count:hover {
+  color: #08d82b;
+  box-shadow: 2px 2px 15px #08d82b inset;
+}
+
+.inputFieldBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+
+.p_count {
+  color: #e6f2f4;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .count {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+  }
+
+  .inputFieldBlock {
+    flex-direction: row;
+    gap: 5px;
+  }
+
+  .p_count {
+    font-size: 14px;
+    text-align: start;
+  }
+}

@@ -1,0 +1,40 @@
+.input {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  width: 110px;
+  height: 40px;
+  margin-right: 5px;
+  border: 3px solid #5df7e7;
+  box-shadow: 2px 2px 15px #000000 inset;
+  color: #fde68a;
+  background: #1b496c;
+  border-radius: 10px;
+}
+
+.input:hover {
+  box-shadow: 0 0 0 0 #fff inset, #eaeaea 0 0 0 3px;
+}
+.input:focus {
+  color: #fde68a;
+  background: #1b496c;
+  outline: 0;
+  box-shadow: 0 0 0 0 #fff inset, #b1e9bf 0 0 0 3px;
+}
+
+.input.error {
+  border: 2px solid #eb270d;
+  color: #f12e0b;
+  box-shadow: 0 0 0 0 #eb2a2a inset, #d73931 0 0 0 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    font-size: 20px;
+    width: 60px;
+    height: 30px;
+    margin-right: 2px;
+    border-width: 2px;
+    border-radius: 5px;
+  }
+}
