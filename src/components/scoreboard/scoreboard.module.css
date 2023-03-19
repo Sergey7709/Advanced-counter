@@ -70,12 +70,6 @@
     gap: 5px;
     width: 90%;
   }
-
-  .num {
-    transition: all 0.5s ease;
-    font-size: 40px;
-  }
-
   .p_scoreboard_white {
     margin: 2px;
     font-size: 18px;
@@ -83,5 +77,9 @@
 
   .p_scoreboard_red {
     font-size: 18px;
+  }
+  .num {
+    transition: all 0.5s ease;
+    font-size: 40px;
   }
 }
