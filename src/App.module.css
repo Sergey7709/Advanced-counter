@@ -63,6 +63,11 @@
   animation: animFw 8s linear infinite;
 }
 
+.red {
+  background: #fa0202fc;
+  box-shadow: 0 0 10px rgba(244, 168, 168, 0.992);
+}
+
 @keyframes animFw {
   0% {
     width: 0;
